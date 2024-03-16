@@ -8,8 +8,7 @@
 - [Калинин Павел (Strawlll)](https://github.com/Strawlll)
 - [Журавлева Анастасия (anashadoof)](https://github.com/anashadoof)
 - [Арясин Никита (NikitArias)](https://github.com/NikitArias)
-
-
+- 
 ## Календарынй план
 
 | Этапы                                                                         | Дата начала | Дата завершения |
