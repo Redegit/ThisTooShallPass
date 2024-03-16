@@ -4,11 +4,11 @@
 
 ## Состав команды 
 
-- [Преснухин Дмитрий (Redegit)](https://github.com/Redegit)
-- [Калинин Павел (Strawlll)](https://github.com/Strawlll)
-- [Журавлева Анастасия (anashadoof)](https://github.com/anashadoof)
-- [Арясин Никита (NikitArias)](https://github.com/NikitArias)
-- 
+- [Преснухин Дмитрий (Redegit)](https://github.com/Redegit) - Frontend
+- [Калинин Павел (Strawlll)](https://github.com/Strawlll) - Backend
+- [Журавлева Анастасия (anashadoof)](https://github.com/anashadoof) - Project Manager
+- [Арясин Никита (NikitArias)](https://github.com/NikitArias) - Toster
+
 ## Календарынй план
 
 | Этапы                                                                         | Дата начала | Дата завершения |
@@ -18,7 +18,9 @@
 | TBD                                                                           |     TBD     |       TBD       |
 
 ## База знаний (пока пусто)
+- [Анализ предметной области](#)
 - [Требования](#)
+- [Правила работы над проектом](#)
 - [Архитектурное решение](#)
 - [БД](#)
 - [Макет Приложения](#)
