@@ -2,6 +2,13 @@
 
 Веб-приложение, предназначенное для помощи людям в решении их психологических проблем.
 
+## Состав команды 
+
+- [Преснухин Дмитрий (Redegit)](https://github.com/Redegit)
+- [Калинин Павел (Strawlll)](https://github.com/Strawlll)
+- [Журавлева Анастасия (anashadoof)](https://github.com/anashadoof)
+- [Арясин Никита (NikitArias)](https://github.com/NikitArias)
+
 
 ## Календарынй план
 
