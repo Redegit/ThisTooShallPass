@@ -1,0 +1,101 @@
+<mxfile host="65bd71144e">
+    <diagram id="_P-0-0fmvpumbTcfbE3D" name="Страница 1">
+        <mxGraphModel dx="264" dy="123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;" parent="1" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="70" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="220" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.997;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="2" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="72"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.401;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="2" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.582;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="2" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Web-приложение&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Software System]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Клиентская часть сайта для пользовтелей&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="10" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="213.85" y="400" width="156.15" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Посетитель сайта&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Person]&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Посетитель, который может написать что-то на формуе или найти событие&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003366;fontColor=#FFFFFF;arcSize=24;" parent="3" vertex="1">
+                    <mxGeometry y="45.83583333333333" width="156.15" height="84.16416666666666" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#003366;" parent="3" vertex="1">
+                    <mxGeometry x="56.920000000000016" width="42.30769230769231" height="42.30769230769231" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="430" y="400" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Рекламодатель или спонсор&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Person]&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Спонсор, который может вложить в наш проект деньги в обмен на интеграцию на нашем сайте или разместить рекламу&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003366;fontColor=#FFFFFF;arcSize=24;" parent="6" vertex="1">
+                    <mxGeometry y="43.33333333333333" width="170" height="86.66666666666666" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#003366;" parent="6" vertex="1">
+                    <mxGeometry x="63.84861991674674" width="42.30769230769231" height="42.30769230769231" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Kudago&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Software System]&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис kudago для получения информации о предстоящих событиях&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="270" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SMS-сервис&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Software System]&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для авторизации пользователей при помощи телефона&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="120" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Почтовый сервис&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Software System]&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для авторизации пользователей через почтовый адрес&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="211.92" y="120" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Profi.ru&lt;br&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;[Software System]&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для получения информации о профессиональных психологах&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="270" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;dashed=1;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="750" y="487"/>
+                            <mxPoint x="750" y="310"/>
+                            <mxPoint x="750" y="45"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Отправляет SMS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="15" vertex="1" connectable="0">
+                    <mxGeometry x="0.8333" y="3" relative="1" as="geometry">
+                        <mxPoint x="-16" y="42" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="4" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="488"/>
+                            <mxPoint x="90" y="45"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="Отправляет&lt;br&gt;email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="70" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Получает информацию&lt;br style=&quot;font-size: 8px;&quot;&gt;с Kudago" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="285" y="210" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Получает информацию с Profi.ru" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="414" y="215" width="140" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Создает и пользуется своим &lt;br&gt;аккаунтом в приложении" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="88.85" y="455" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Размещает свою рекламу и товары" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="460" width="160" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,97 +1,101 @@
-<mxfile host="Electron" modified="2024-04-27T14:58:38.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="R9QvoJHVNpryASFsjcXa" version="24.2.5" type="device">
-  <diagram name="Страница — 1" id="9Qov57yrKp08msyJnxpZ">
-    <mxGraphModel dx="920" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="pOleCrQijlKQoVfFNrDn-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Kudago&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис kudago для получения информации о предстоящих событиях&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="710" y="110" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-5" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ffffff&quot;&gt;База данных&lt;/font&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ffffff&quot;&gt;[Container: PostgreSQL]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ffffff&quot;&gt;Хранит информацию о пользователях, и о предстоящих событиях&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=4.885707310267833;fillColor=#348CFE;strokeColor=#999999;" vertex="1" parent="1">
-          <mxGeometry x="450" y="290" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="30" y="30" width="156.15" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Посетитель сайта&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(&quot;разбитое сердце&quot;)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Обычный посетитель, который хочет написать что-то на формуе или найти событие&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003366;fontColor=#FFFFFF;arcSize=24;" vertex="1" parent="pOleCrQijlKQoVfFNrDn-8">
-          <mxGeometry y="42.31" width="156.15" height="77.69" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#003366;" vertex="1" parent="pOleCrQijlKQoVfFNrDn-8">
-          <mxGeometry x="56.920000000000016" width="42.30769230769231" height="42.30769230769231" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-9" target="pOleCrQijlKQoVfFNrDn-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Web-приложение&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Container: React JS]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Клиентская часть сайта для обычных пользовтелей&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API-Сервер&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Container: Java &amp;amp; Spring]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Серверная часть, обеспечивающая работу бизнес-логики, предоставляющая API для взаимодействия с клиентской частью и ORM для работы с БД&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="440" y="150" width="200" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-11" target="pOleCrQijlKQoVfFNrDn-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Web-сайт для партнеров&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Container: React JS]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Отдельный сайт для рекламодателей&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="240" y="240" width="150" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-12" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="23.07" y="200" width="170" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Рекламодатель или спонсор&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Спонсор, который хочет вложить в наш проект деньги в обмен на интеграцию на нашем сайте&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003366;fontColor=#FFFFFF;arcSize=24;" vertex="1" parent="pOleCrQijlKQoVfFNrDn-12">
-          <mxGeometry y="42.31" width="170" height="77.69" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#003366;" vertex="1" parent="pOleCrQijlKQoVfFNrDn-12">
-          <mxGeometry x="63.84861991674674" width="42.30769230769231" height="42.30769230769231" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="pOleCrQijlKQoVfFNrDn-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="679" y="-22.31" as="sourcePoint" />
-            <mxPoint x="147" y="80.00000000000017" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="679" y="-120" />
-              <mxPoint x="147" y="-120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SMS-сервис&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для авторизации пользователей при помощи телефона&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="560" y="-30" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-17" target="pOleCrQijlKQoVfFNrDn-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="450" y="-60" />
-              <mxPoint x="170" y="-60" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Почтовый сервис&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для авторизации пользователей при помощи почтового адреса&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="370" y="-30" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Profi.ru&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для получения информации о профессиональных психологах&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="710" y="220" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-1" target="pOleCrQijlKQoVfFNrDn-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pOleCrQijlKQoVfFNrDn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pOleCrQijlKQoVfFNrDn-13" target="pOleCrQijlKQoVfFNrDn-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Страница — 1" id="9Qov57yrKp08msyJnxpZ">
+        <mxGraphModel dx="907" dy="1803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Kudago&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис kudago для получения информации о предстоящих событиях&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="110" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-5" value="&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ffffff&quot;&gt;База данных&lt;/font&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ffffff&quot;&gt;[Container: PostgreSQL]&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot; color=&quot;#ffffff&quot;&gt;Хранит информацию о пользователях, и о предстоящих событиях&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=4.885707310267833;fillColor=#348CFE;strokeColor=#999999;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="360" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-8" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="36.92" y="30" width="156.15" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-1" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Посетитель сайта&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(&quot;разбитое сердце&quot;)&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Обычный посетитель, который хочет написать что-то на формуе или найти событие&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003366;fontColor=#FFFFFF;arcSize=24;" parent="pOleCrQijlKQoVfFNrDn-8" vertex="1">
+                    <mxGeometry y="42.31" width="156.15" height="77.69" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#003366;" parent="pOleCrQijlKQoVfFNrDn-8" vertex="1">
+                    <mxGeometry x="56.920000000000016" width="42.30769230769231" height="42.30769230769231" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-9" target="pOleCrQijlKQoVfFNrDn-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Web-приложение&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Container: React JS]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Клиентская часть сайта для обычных пользовтелей&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="71.15" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-10" target="pOleCrQijlKQoVfFNrDn-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API-Сервер&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Container: Java &amp;amp; Spring]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Серверная часть, обеспечивающая работу бизнес-логики, предоставляющая API для взаимодействия с клиентской частью и ORM для работы с БД&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="150" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-11" target="pOleCrQijlKQoVfFNrDn-10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="480" y="281"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Web-сайт для партнеров&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;[Container: React JS]&lt;/font&gt;&lt;br&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Отдельный сайт для рекламодателей&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#348cfe;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="241.15" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-12" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="23.07" y="200" width="170" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Рекламодатель или спонсор&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Спонсор, который хочет вложить в наш проект деньги в обмен на интеграцию на нашем сайте&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#003366;fontColor=#FFFFFF;arcSize=24;" parent="pOleCrQijlKQoVfFNrDn-12" vertex="1">
+                    <mxGeometry y="42.31" width="170" height="77.69" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#003366;" parent="pOleCrQijlKQoVfFNrDn-12" vertex="1">
+                    <mxGeometry x="63.84861991674674" width="42.30769230769231" height="42.30769230769231" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="pOleCrQijlKQoVfFNrDn-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="679" y="-22.31" as="sourcePoint"/>
+                        <mxPoint x="147" y="80.00000000000017" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="679" y="-120"/>
+                            <mxPoint x="147" y="-120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SMS-сервис&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для авторизации пользователей при помощи телефона&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="-30" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-17" target="pOleCrQijlKQoVfFNrDn-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="450" y="-60"/>
+                            <mxPoint x="170" y="-60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Почтовый сервис&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для авторизации пользователей при помощи почтового адреса&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="-30" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Profi.ru&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Сервис для получения информации о профессиональных психологах&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#999999;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="220" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pOleCrQijlKQoVfFNrDn-1" target="pOleCrQijlKQoVfFNrDn-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOleCrQijlKQoVfFNrDn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pOleCrQijlKQoVfFNrDn-13" target="pOleCrQijlKQoVfFNrDn-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
