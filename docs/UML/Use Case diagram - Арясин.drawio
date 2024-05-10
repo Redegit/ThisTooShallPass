@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="Avv9MhjKLOj5MuREJhU9" name="Страница 1">
+        <mxGraphModel dx="714" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Посетитель сайта" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="790" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Рекламодатель или спонсор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="950" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="590" width="350" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Web-приложение" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
+                    <mxGeometry x="492.5" y="600" width="80" height="11" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Просмотр событий" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="462.5" y="620" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Авторизация через почту" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="700" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Авторизация через SMS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="457.5" y="785" width="155" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Создание и использование аккаунта" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="870" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Получение информации о предстоящих событиях" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="970" width="175" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Получение информации о проффессионалах" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="432.5" y="1060" width="205" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Использует для&amp;nbsp;&lt;br&gt;просмотра событий" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="6" edge="1">
+                    <mxGeometry x="-0.2223" width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="760" as="sourcePoint"/>
+                        <mxPoint x="410" y="760" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Использует для&lt;br&gt;авторизации" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2" target="7" edge="1">
+                    <mxGeometry x="-0.1449" y="-30" width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="790" as="sourcePoint"/>
+                        <mxPoint x="410" y="790" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="Использует для&lt;br&gt;авторизации" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.778;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2" target="8" edge="1">
+                    <mxGeometry x="-0.1224" y="-29" width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="800" as="sourcePoint"/>
+                        <mxPoint x="410" y="800" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Использует для&lt;br&gt;управления аккаунтом" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="9" edge="1">
+                    <mxGeometry x="-0.2" y="-37" width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="810" as="sourcePoint"/>
+                        <mxPoint x="410" y="810" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Использует для&lt;br&gt;получения информации" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="10" edge="1">
+                    <mxGeometry x="-0.1449" y="-25" width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="1030" as="sourcePoint"/>
+                        <mxPoint x="410" y="1030" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Использует для&lt;br&gt;получения информации" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="11" edge="1">
+                    <mxGeometry x="-0.0497" y="-31" width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="1020" as="sourcePoint"/>
+                        <mxPoint x="410" y="1020" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
