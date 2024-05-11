@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
@@ -21,10 +21,30 @@ jobs:
           mvn -B package
 
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+
+      services:
+        postgres:
+          image: postgres:latest
+          env:
+            POSTGRES_DB: ThisTooShallPass
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: 1
+          ports:
+            - 5432:5432
+          options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install psql
+        run: sudo apt-get install postgresql-client -y
+
+      - name: Load database schema
+        run: |
+          psql -h http:localhost:5432 -U postgres -d ThisTooShallPass -f ./back/script.sql
+
 
       # Запуск unit тестов Java
       - name: Run Java unit tests
