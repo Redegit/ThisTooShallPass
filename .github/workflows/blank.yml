@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Сборка Spring приложения
+      - name: Build Spring application
+        run: |
+          cd back
+          mvn -B package
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Запуск unit тестов Java
+      - name: Run Java unit tests
+        run: |
+          cd back
+          mvn test
