@@ -42,7 +42,7 @@ jobs:
 
       - name: Load database schema
         run: |
-          psql -h http://localhost:5432 -U postgres -d ThisTooShallPass -f ./back/script.sql
+          psql -h localhost -U postgres -d ThisTooShallPass -f ./back/script.sql
 
       # Запуск unit тестов Java
       - name: Run Java unit tests
