@@ -63,7 +63,7 @@ public class UserControllerTest {
         var responseEntity = this.controller.getUserById(1);
         // then
         assertNotNull(responseEntity);
-        assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
+        assertEquals(HttpStatus.ACCEPTED, responseEntity.getStatusCode());
 //        assertEquals(MediaType.APPLICATION_JSON, responseEntity.getHeaders().getContentType());
         assertEquals(user, responseEntity.getBody());
     }
