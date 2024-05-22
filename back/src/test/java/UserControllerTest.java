@@ -43,7 +43,7 @@ public class UserControllerTest {
 
         // then
         assertNotNull(responseEntity);
-        assertEquals(HttpStatus.BAD_REQUEST, responseEntity.getStatusCode());
+        assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
 //        assertEquals(MediaType.APPLICATION_JSON, responseEntity.getHeaders().getContentType());
         assertEquals(users, responseEntity.getBody());
     }
@@ -63,7 +63,7 @@ public class UserControllerTest {
         var responseEntity = this.controller.getUserById(1);
         // then
         assertNotNull(responseEntity);
-        assertEquals(HttpStatus.ACCEPTED, responseEntity.getStatusCode());
+        assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
 //        assertEquals(MediaType.APPLICATION_JSON, responseEntity.getHeaders().getContentType());
         assertEquals(user, responseEntity.getBody());
     }
