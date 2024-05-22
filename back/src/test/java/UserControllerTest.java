@@ -8,7 +8,6 @@ import org.server.api.UserController;
 import org.server.entity.User;
 import org.server.repository.UserRepository;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 
 import java.util.List;
 import java.util.Optional;
