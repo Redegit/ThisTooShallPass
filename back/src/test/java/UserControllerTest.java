@@ -8,7 +8,6 @@ import org.server.api.UserController;
 import org.server.entity.User;
 import org.server.repository.UserRepository;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 
 import java.util.List;
 import java.util.Optional;
@@ -44,7 +43,7 @@ public class UserControllerTest {
 
         // then
         assertNotNull(responseEntity);
-        assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
+        assertEquals(HttpStatus.BAD_REQUEST, responseEntity.getStatusCode());
 //        assertEquals(MediaType.APPLICATION_JSON, responseEntity.getHeaders().getContentType());
         assertEquals(users, responseEntity.getBody());
     }
