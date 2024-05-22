@@ -7,7 +7,7 @@
 - [Преснухин Дмитрий (Redegit)](https://github.com/Redegit) - Frontend
 - [Калинин Павел (Strawlll)](https://github.com/Strawlll) - Backend
 - [Журавлева Анастасия (anashadoof)](https://github.com/anashadoof) - Project Manager
-- [Арясин Никита (NikitArias)](https://github.com/NikitArias) - Tester
+- [Арясин Никита (NikitArias)](https://github.com/NikitArias) - Тестировщик
 
 ## Календарынй план
 
