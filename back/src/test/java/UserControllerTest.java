@@ -53,7 +53,7 @@ public class UserControllerTest {
     @DisplayName("GET /api/users возвращает HTTP-ответ со статусом 200 OK и списком пользователей")
     void handleGetUserByID_ReturnsValidResponseEntity() {
         // given 
-        var user = new User();
+        var user = new User(); 
         user.setName("DmitryP");
 //        user.setPassword("$2a$10$9Cb10Lwl9bQ9X2tO1o8fl.T0DU0Uj0TTvlIY6opirZ5CLIzUJH5Xi");
 
