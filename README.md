@@ -7,7 +7,7 @@
 - [Преснухин Дмитрий (Redegit)](https://github.com/Redegit) - Frontend
 - [Калинин Павел (Strawlll)](https://github.com/Strawlll) - Backend
 - [Журавлева Анастасия (anashadoof)](https://github.com/anashadoof) - Project Manager
-- [Арясин Никита (NikitArias)](https://github.com/NikitArias) - Tester
+- [Арясин Никита (NikitArias)](https://github.com/NikitArias) - Тестировщик
 
 ## Календарынй план
 
@@ -24,6 +24,7 @@
 - [Анализ предметной области](./docs/анализ%20предметной%20области%20и%20структура.pptx)
 - [Требования](./docs/требования.md)
 - [Правила работы над проектом](./docs/правила%20работы%20над%20проектом.md)
+- [Атрибуты качества](./docs/сценарии%20атрибутов%20качества.md)
 - Архитектурное решение
 - БД
 - Макет Приложения
