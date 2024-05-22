@@ -66,5 +66,4 @@ create table Comment
 alter table Comment
     owner to postgres;
 
-INSERT INTO "user" (name, password) VALUES ('DmitryP', '$2a$10$9Cb10Lwl9bQ9X2tO1o8fl.T0DU0Uj0TTvlIY6opirZ5CLIzUJH5Xi');
 

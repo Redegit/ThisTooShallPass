@@ -13,13 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Установка Java 19
-      - name: Set up JDK 19
-        uses: actions/setup-java@v3
-        with:
-          java-version: "19"
-          distribution: "temurin"
-
       # Сборка Spring приложения
       - name: Build Spring application
         run: |
@@ -29,33 +22,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    services:
-      postgres:
-        image: postgres:latest
-        env:
-          POSTGRES_DB: ThisTooShallPass
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: 1
-        ports:
-          - 5432:5432
-        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
-
     steps:
       - uses: actions/checkout@v4
-
-      - name: Install psql
-        run: sudo apt-get install postgresql-client -y
-
-      - name: Load database schema
-        run: |
-          PGPASSWORD=1 psql -h localhost -U postgres -d ThisTooShallPass -W 1 -f ./back/script.sql -W 1
-
-      # Установка Java 19
-      - name: Set up JDK 19
-        uses: actions/setup-java@v3
-        with:
-          java-version: "19"
-          distribution: "temurin"
 
       # Запуск unit тестов Java
       - name: Run Java unit tests
